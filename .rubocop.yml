@@ -1,0 +1,17 @@
+Rails:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 30
+
+AllCops:
+  Exclude:
+    - Gemfile
+  TargetRubyVersion:
+    2.4
